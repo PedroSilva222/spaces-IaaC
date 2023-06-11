@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea7a7595-ae11-4c7f-9853-0a69990b2b3d" name="Changes" comment="" />
+    <list default="true" id="ea7a7595-ae11-4c7f-9853-0a69990b2b3d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infraestructure/sqs/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infraestructure/sqs/main.tf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +33,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Pichau/workspace-dev/spaces-infraestructure/infraestructure/sqs/modules/sqs",
+    "last_opened_file_path": "D:/Pichau/workspace-dev/spaces-infraestructure/infraestructure/sqs/environments/dev",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -41,6 +44,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Pichau\workspace-dev\spaces-infraestructure\infraestructure\sqs\environments\dev" />
       <recent name="D:\Pichau\workspace-dev\spaces-infraestructure\infraestructure\sqs\modules\sqs" />
       <recent name="D:\Pichau\workspace-dev\spaces-infraestructure" />
     </key>
@@ -56,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686509296712</updated>
-      <workItem from="1686509297815" duration="3763000" />
+      <workItem from="1686509297815" duration="5179000" />
     </task>
     <servers />
   </component>
