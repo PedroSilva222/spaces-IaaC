@@ -34,3 +34,11 @@ resource "aws_iam_role_policy_attachment" "application_role_geoloc_producer" {
   role       = aws_iam_role.application_role.name
   policy_arn = module.geolocation_notification.producer_policy_arn
 }
+
+# Event source from SQS to Lambda Geolocation
+resource "aws_lambda_event_source_mapping" "event_source_mapping_geolocation_queue" {
+  event_source_arn = module.geolocation_notification.queue_geolocation_arn
+  enabled          = true
+  function_name    = "lambdaretrievegeolocation" // or arn
+  batch_size       = 1
+}
