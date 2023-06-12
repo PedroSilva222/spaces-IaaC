@@ -5,13 +5,13 @@
 
 module "geolocation_notification" {
   source = "./modules/sqs"
-  queue_name = var.sqs_name
   common_tags = var.common_tags
   sqs_delay_sec = var.sqs_delay_sec
   sqs_max_message_size = var.sqs_max_message_size
   sqs_name = var.sqs_name
   sqs_receive_wait_time = var.sqs_receive_wait_time
   sqs_retention_period = var.sqs_retention_period
+  sqs_name_policy = "sqs-geolocation-policy"
 }
 
 resource "aws_iam_role" "application_role" {
@@ -39,6 +39,6 @@ resource "aws_iam_role_policy_attachment" "application_role_geoloc_producer" {
 resource "aws_lambda_event_source_mapping" "event_source_mapping_geolocation_queue" {
   event_source_arn = module.geolocation_notification.queue_geolocation_arn
   enabled          = true
-  function_name    = "lambdaretrievegeolocation" // or arn
+  function_name    = "LambdaRetrieveGeolocation" // or arn
   batch_size       = 1
 }

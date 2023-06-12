@@ -46,31 +46,33 @@ variable "sqs_receive_wait_time" {
 
 
 variable "common_tags" {
-  description       = "Common tags for resources"
-  type              = map(string)
+  description = "Common tags for resources"
+  type        = map(string)
+  default     = {}
+
 }
 
 
 variable "team" {
   description = "The name of the team"
-  default = "DevOps"
-  type = string
+  default     = "DevOps"
+  type        = string
 }
 
 variable "project" {
   description = "The name of the project"
-  default = "Terraform"
-  type = string
+  default     = "Terraform"
+  type        = string
 }
 
 variable "created_by" {
   description = "Resources created by"
-  default = "PedroSpiet"
-  type = string
+  default     = "PedroSpiet"
+  type        = string
 }
 
 variable "organization" {
   description = "The name of the organization"
-  default = "terraform"
-  type = string
+  default     = "terraform"
+  type        = string
 }

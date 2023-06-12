@@ -1,10 +1,4 @@
-##
-## A module to create an SQS queue, along with its dead-letter queue and access policies
-##
 
-provider "aws" {}
-
-data "aws_region" "current" {}
 
 ##
 ## The primary and dead-letter queues

@@ -15,7 +15,6 @@ variable "sqs_name_policy" {
                     This is the human-readable name of the queue. If omitted, Terraform will assign a random name.
                 EOF
   type        = string
-  default  = sqs_trust
 }
 
 variable "sqs_delay_sec" {
@@ -57,6 +56,7 @@ variable "sqs_receive_wait_time" {
 variable "common_tags" {
   description       = "Common tags for resources"
   type              = map(string)
+  default = {}
 }
 
 

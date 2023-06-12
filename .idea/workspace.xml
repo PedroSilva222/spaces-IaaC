@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ea7a7595-ae11-4c7f-9853-0a69990b2b3d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infraestructure/sqs/environments/dev/dev.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/infraestructure/sqs/environments/dev/dev.tfvars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infraestructure/sqs/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infraestructure/sqs/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraestructure/sqs/modules/sqs/output.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infraestructure/sqs/modules/sqs/output.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infraestructure/sqs/modules/sqs/resource.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infraestructure/sqs/modules/sqs/resource.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infraestructure/sqs/modules/sqs/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infraestructure/sqs/modules/sqs/variables.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,7 @@
       <recent name="D:\Pichau\workspace-dev\spaces-infraestructure" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Pichau\workspace-dev\spaces-infraestructure\infraestructure\lambda" />
       <recent name="D:\Pichau\workspace-dev\spaces-infraestructure\infraestructure\lambda\modules" />
       <recent name="D:\Pichau\workspace-dev\spaces-infraestructure\infraestructure\sqs\modules\sqs" />
     </key>
@@ -63,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686509296712</updated>
-      <workItem from="1686509297815" duration="7379000" />
+      <workItem from="1686509297815" duration="13065000" />
     </task>
     <servers />
   </component>
